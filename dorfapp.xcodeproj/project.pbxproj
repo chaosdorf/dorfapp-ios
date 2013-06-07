@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA8121A176274B80081BE7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA81219176274B80081BE7E /* UIKit.framework */; };
+		ECA8121C176274B80081BE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8121B176274B80081BE7E /* Foundation.framework */; };
+		ECA8121E176274B80081BE7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8121D176274B80081BE7E /* CoreGraphics.framework */; };
+		ECA81224176274B80081BE7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA81222176274B80081BE7E /* InfoPlist.strings */; };
+		ECA81226176274B80081BE7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA81225176274B80081BE7E /* main.m */; };
+		ECA8122A176274B80081BE7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA81229176274B80081BE7E /* AppDelegate.m */; };
+		ECA8122C176274B80081BE7E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8122B176274B80081BE7E /* Default.png */; };
+		ECA8122E176274B80081BE7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8122D176274B80081BE7E /* Default@2x.png */; };
+		ECA81230176274B80081BE7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8122F176274B80081BE7E /* Default-568h@2x.png */; };
+		ECA81233176274B80081BE7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA81232176274B80081BE7E /* ViewController.m */; };
+		ECA81236176274B80081BE7E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA81234176274B80081BE7E /* ViewController.xib */; };
+		ECA8123E176274B80081BE7E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8123D176274B80081BE7E /* SenTestingKit.framework */; };
+		ECA8123F176274B80081BE7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA81219176274B80081BE7E /* UIKit.framework */; };
+		ECA81240176274B80081BE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8121B176274B80081BE7E /* Foundation.framework */; };
+		ECA81248176274B80081BE7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA81246176274B80081BE7E /* InfoPlist.strings */; };
+		ECA8124B176274B80081BE7E /* dorfappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8124A176274B80081BE7E /* dorfappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA81241176274B80081BE7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA8120E176274B80081BE7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA81215176274B80081BE7E;
+			remoteInfo = dorfapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA81216176274B80081BE7E /* dorfapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dorfapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA81219176274B80081BE7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECA8121B176274B80081BE7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECA8121D176274B80081BE7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECA81221176274B80081BE7E /* dorfapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dorfapp-Info.plist"; sourceTree = "<group>"; };
+		ECA81223176274B80081BE7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA81225176274B80081BE7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA81227176274B80081BE7E /* dorfapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dorfapp-Prefix.pch"; sourceTree = "<group>"; };
+		ECA81228176274B80081BE7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA81229176274B80081BE7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA8122B176274B80081BE7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ECA8122D176274B80081BE7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ECA8122F176274B80081BE7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ECA81231176274B80081BE7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA81232176274B80081BE7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA81235176274B80081BE7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ECA8123C176274B80081BE7E /* dorfappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dorfappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA8123D176274B80081BE7E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECA81245176274B80081BE7E /* dorfappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dorfappTests-Info.plist"; sourceTree = "<group>"; };
+		ECA81247176274B80081BE7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA81249176274B80081BE7E /* dorfappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dorfappTests.h; sourceTree = "<group>"; };
+		ECA8124A176274B80081BE7E /* dorfappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dorfappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA81213176274B80081BE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA8121A176274B80081BE7E /* UIKit.framework in Frameworks */,
+				ECA8121C176274B80081BE7E /* Foundation.framework in Frameworks */,
+				ECA8121E176274B80081BE7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA81238176274B80081BE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA8123E176274B80081BE7E /* SenTestingKit.framework in Frameworks */,
+				ECA8123F176274B80081BE7E /* UIKit.framework in Frameworks */,
+				ECA81240176274B80081BE7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA8120D176274B80081BE7E = {
+			isa = PBXGroup;
+			children = (
+				ECA8121F176274B80081BE7E /* dorfapp */,
+				ECA81243176274B80081BE7E /* dorfappTests */,
+				ECA81218176274B80081BE7E /* Frameworks */,
+				ECA81217176274B80081BE7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA81217176274B80081BE7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA81216176274B80081BE7E /* dorfapp.app */,
+				ECA8123C176274B80081BE7E /* dorfappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA81218176274B80081BE7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA81219176274B80081BE7E /* UIKit.framework */,
+				ECA8121B176274B80081BE7E /* Foundation.framework */,
+				ECA8121D176274B80081BE7E /* CoreGraphics.framework */,
+				ECA8123D176274B80081BE7E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA8121F176274B80081BE7E /* dorfapp */ = {
+			isa = PBXGroup;
+			children = (
+				ECA81228176274B80081BE7E /* AppDelegate.h */,
+				ECA81229176274B80081BE7E /* AppDelegate.m */,
+				ECA81231176274B80081BE7E /* ViewController.h */,
+				ECA81232176274B80081BE7E /* ViewController.m */,
+				ECA81234176274B80081BE7E /* ViewController.xib */,
+				ECA81220176274B80081BE7E /* Supporting Files */,
+			);
+			path = dorfapp;
+			sourceTree = "<group>";
+		};
+		ECA81220176274B80081BE7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA81221176274B80081BE7E /* dorfapp-Info.plist */,
+				ECA81222176274B80081BE7E /* InfoPlist.strings */,
+				ECA81225176274B80081BE7E /* main.m */,
+				ECA81227176274B80081BE7E /* dorfapp-Prefix.pch */,
+				ECA8122B176274B80081BE7E /* Default.png */,
+				ECA8122D176274B80081BE7E /* Default@2x.png */,
+				ECA8122F176274B80081BE7E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA81243176274B80081BE7E /* dorfappTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA81249176274B80081BE7E /* dorfappTests.h */,
+				ECA8124A176274B80081BE7E /* dorfappTests.m */,
+				ECA81244176274B80081BE7E /* Supporting Files */,
+			);
+			path = dorfappTests;
+			sourceTree = "<group>";
+		};
+		ECA81244176274B80081BE7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA81245176274B80081BE7E /* dorfappTests-Info.plist */,
+				ECA81246176274B80081BE7E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA81215176274B80081BE7E /* dorfapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA8124E176274B80081BE7E /* Build configuration list for PBXNativeTarget "dorfapp" */;
+			buildPhases = (
+				ECA81212176274B80081BE7E /* Sources */,
+				ECA81213176274B80081BE7E /* Frameworks */,
+				ECA81214176274B80081BE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dorfapp;
+			productName = dorfapp;
+			productReference = ECA81216176274B80081BE7E /* dorfapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA8123B176274B80081BE7E /* dorfappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA81251176274B80081BE7E /* Build configuration list for PBXNativeTarget "dorfappTests" */;
+			buildPhases = (
+				ECA81237176274B80081BE7E /* Sources */,
+				ECA81238176274B80081BE7E /* Frameworks */,
+				ECA81239176274B80081BE7E /* Resources */,
+				ECA8123A176274B80081BE7E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA81242176274B80081BE7E /* PBXTargetDependency */,
+			);
+			name = dorfappTests;
+			productName = dorfappTests;
+			productReference = ECA8123C176274B80081BE7E /* dorfappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA8120E176274B80081BE7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chaos Computer Club Düsseldorf / Chaosdorf e.V.";
+			};
+			buildConfigurationList = ECA81211176274B80081BE7E /* Build configuration list for PBXProject "dorfapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECA8120D176274B80081BE7E;
+			productRefGroup = ECA81217176274B80081BE7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA81215176274B80081BE7E /* dorfapp */,
+				ECA8123B176274B80081BE7E /* dorfappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA81214176274B80081BE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA81224176274B80081BE7E /* InfoPlist.strings in Resources */,
+				ECA8122C176274B80081BE7E /* Default.png in Resources */,
+				ECA8122E176274B80081BE7E /* Default@2x.png in Resources */,
+				ECA81230176274B80081BE7E /* Default-568h@2x.png in Resources */,
+				ECA81236176274B80081BE7E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA81239176274B80081BE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA81248176274B80081BE7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECA8123A176274B80081BE7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA81212176274B80081BE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA81226176274B80081BE7E /* main.m in Sources */,
+				ECA8122A176274B80081BE7E /* AppDelegate.m in Sources */,
+				ECA81233176274B80081BE7E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA81237176274B80081BE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA8124B176274B80081BE7E /* dorfappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA81242176274B80081BE7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA81215176274B80081BE7E /* dorfapp */;
+			targetProxy = ECA81241176274B80081BE7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA81222176274B80081BE7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA81223176274B80081BE7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECA81234176274B80081BE7E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA81235176274B80081BE7E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		ECA81246176274B80081BE7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA81247176274B80081BE7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA8124C176274B80081BE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ECA8124D176274B80081BE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA8124F176274B80081BE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dorfapp/dorfapp-Prefix.pch";
+				INFOPLIST_FILE = "dorfapp/dorfapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECA81250176274B80081BE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dorfapp/dorfapp-Prefix.pch";
+				INFOPLIST_FILE = "dorfapp/dorfapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECA81252176274B80081BE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dorfapp.app/dorfapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dorfapp/dorfapp-Prefix.pch";
+				INFOPLIST_FILE = "dorfappTests/dorfappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ECA81253176274B80081BE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dorfapp.app/dorfapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dorfapp/dorfapp-Prefix.pch";
+				INFOPLIST_FILE = "dorfappTests/dorfappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA81211176274B80081BE7E /* Build configuration list for PBXProject "dorfapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA8124C176274B80081BE7E /* Debug */,
+				ECA8124D176274B80081BE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA8124E176274B80081BE7E /* Build configuration list for PBXNativeTarget "dorfapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA8124F176274B80081BE7E /* Debug */,
+				ECA81250176274B80081BE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA81251176274B80081BE7E /* Build configuration list for PBXNativeTarget "dorfappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA81252176274B80081BE7E /* Debug */,
+				ECA81253176274B80081BE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA8120E176274B80081BE7E /* Project object */;
+}
